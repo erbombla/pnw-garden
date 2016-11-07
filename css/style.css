@@ -1,0 +1,28 @@
+#spring {
+float: center;
+display: none;
+}
+#summer {
+float: center;
+display: none;
+}
+#autumn {
+float: center;
+display: none;
+}
+#winter {
+float: center;
+display: none;
+}
+h2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+h3 {
+text-align: center;
+}
