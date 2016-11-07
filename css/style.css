@@ -1,0 +1,54 @@
+.container {
+text-align: center;
+}
+
+h1, h2 {
+  font-size: 6.2em;
+  font-family: 'Pacifico', cursive;
+  margin: none;
+  color: rgb(125, 141, 115);
+}
+
+.navbarr {
+  margin-top: 100px;
+  /*width: 85%;*/
+  color: rgb(206, 159, 87);
+  font-size: 2.5em;
+  align-content: center;
+  font-family: 'Itim', cursive;
+}
+
+.navbarr a {
+  color: rgb(206, 159, 87);
+  text-decoration: none;
+}
+
+.navbarr a:hover {
+  color: rgb(125, 141, 115);
+}
+
+.about {
+  margin-top: 100px;
+  color: #FAF8F6;
+  font-family: 'Itim', cursive;
+  background-color: rgba(216, 109, 75, 0.8);
+  padding: 8%;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+  color: #FAF8F6;
+}
+
+.about p {
+  font-size: 1.5em;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 73%;
+}
