@@ -1,8 +1,17 @@
+.homeclass {
+background-color:  #FBEEE6;
+}
+
 .container {
 text-align: center;
 }
 
-h1, h2 {
+.home {
+  box-shadow: 4px 2px 50px #EDBB99;
+  background-color: #fff;
+}
+
+.home h1, .home h2 {
   font-size: 6.2em;
   font-family: 'Pacifico', cursive;
   margin: none;
