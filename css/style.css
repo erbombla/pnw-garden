@@ -4,7 +4,7 @@ display: none;
 }
 #summer {
 float: center;
-display: none;
+display: noe;
 }
 #autumn {
 float: center;
@@ -14,15 +14,15 @@ display: none;
 float: center;
 display: none;
 }
-h2 {
+#spring-click, #summer-click, #autumn-click, #winter-click {
   cursor: pointer;
   color: #0088cc;
 }
 
-h2:hover {
+#spring-click, #summer-click, #autumn-click, #winter-click:hover {
   text-decoration: underline;
 }
 
-h3 {
+#spring-center, #summer-center, #autumn-center, #winter-center {
 text-align: center;
 }
