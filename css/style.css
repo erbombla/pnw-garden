@@ -1,4 +1,4 @@
-.homeclass {
+.homeclass, #surveyBody {
 background-color:  #FBEEE6;
 }
 
@@ -10,6 +10,63 @@ text-align: center;
   box-shadow: 4px 2px 50px #EDBB99;
   background-color: #fff;
 }
+
+#surveyHeader {
+  margin-top: 25px;
+  align-self: center;
+  box-shadow: 4px 2px 50px #EDBB99;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 4%;
+  width: auto;
+  margin-bottom: 25px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(125, 141, 115);
+  background-image: url(../img/artiheader.jpg);
+  background-position: bottom right;
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 350px;
+  align-content: center;
+}
+
+#surveyHeader h2 {
+  font-size: 4em;
+  margin-top: 0.8%;
+  text-decoration: underline;
+  background-color: #fff;
+  /*max-width: 680px;*/
+}
+
+#questions {
+  align-content: center;
+  box-shadow: 4px 2px 50px #EDBB99;
+  background-color: #fff;
+  padding: 4%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  font-family: 'Itim', cursive;
+  color: rgb(206, 159, 87);
+  font-size: 15px;
+}
+
+
+.result {
+  align-self: center;
+  box-shadow: 4px 2px 50px #EDBB99;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 4%;
+  width: 100%;
+  margin-bottom: 25px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(125, 141, 115);
+}
+
+.result h3 {
+  font-size: 2em;
+}
+
 
 .home h1, .home h2 {
   font-size: 6.2em;
@@ -60,4 +117,14 @@ hr {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 73%;
+}
+
+#questions .btn {
+  background-color: rgba(216, 109, 75, 0.8);
+  color: rgb(125, 141, 115);
+}
+
+#questions .btn:hover {
+  background-color: rgb(125, 141, 115);
+  color: #FAF8F6;
 }
