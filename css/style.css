@@ -128,3 +128,28 @@ hr {
   background-color: rgb(125, 141, 115);
   color: #FAF8F6;
 }
+
+#spring, #summer, #autumn, #winter {
+float: center;
+display: none;
+}
+
+#spring-click, #summer-click, #autumn-click, #winter-click {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+
+#spring-click, #summer-click, #autumn-click, #winter-click {
+  text-decoration: underline;
+}
+
+#spring-center, #summer-center, #autumn-center, #winter-center {
+text-align: center;
+}
+
+
+.img-responsive {
+  height: 200px;
+  width: 300px;
+}
