@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container start">
+      <h2>What Should You Plant?</h2>
+      <h3>Take our survey to figure out what time of year works best for you to garden! Then go to our seasons page to look at the list of plants.</h3>
+      <form id="survey">
+        <h5>What's your ideal outside temperature? (in farenheit)</h5?>
+          <div class="radio">
+            <label>
+              <input type="radio" name="temp" value="a" checked>
+              45-55
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="temp" value="b">
+              55-65
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="temp" value="c">
+              65-75
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="temp" value="d">
+              75+
+            </label>
+          </div>
+        <h5>What do you like eating most?</h5>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eat" value="a" checked>
+            Roots (i.e. garlic, onion)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eat" value="b">
+            Pumpkins and Squashes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eat" value="c">
+            Nightshades
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eat" value="d">
+            Fruit
+          </label>
+        </div>
+        <h5>How much gardening space do you have?</h5>
+        <div class="radio">
+          <label>
+            <input type="radio" name="space" value="a" checked>
+            None
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="space" value="b">
+            Small Outside Area
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="space" value="c">
+            Decent (like a backyard)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="space" value="d">
+            ALL the space!
+          </label>
+        </div>
+        <h5>How much time do you want to put into your garden?</h5>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="a" checked>
+            Not much
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="b">
+            I'll pay it some attention
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="c">
+            This is my hobby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="d">
+            I'll eat ALL the food!
+          </label>
+        </div>
+        <br>
+        <button type="submit" name="button" class="btn">Let's See!</button>
+      </form>
+      <div class="result">
+        <h3>You should garden in the:</h3>
+        <p>
+
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
