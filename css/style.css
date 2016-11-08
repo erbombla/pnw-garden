@@ -8,6 +8,7 @@ display: none;
   color: #0088cc;
 }
 
+
 #spring-click, #summer-click, #autumn-click, #winter-click {
   text-decoration: underline;
 }
@@ -15,6 +16,7 @@ display: none;
 #spring-center, #summer-center, #autumn-center, #winter-center {
 text-align: center;
 }
+
 
 .img-responsive {
   height: 200px;
