@@ -1,10 +1,14 @@
-#spring {
+#spring, #summer, #autumn, #winter {
 float: center;
 display: none;
 }
+/*#spring {
+float: center;
+display: ;
+}
 #summer {
 float: center;
-display: noe;
+display: none;
 }
 #autumn {
 float: center;
@@ -13,13 +17,13 @@ display: none;
 #winter {
 float: center;
 display: none;
-}
+}*/
 #spring-click, #summer-click, #autumn-click, #winter-click {
   cursor: pointer;
   color: #0088cc;
 }
 
-#spring-click, #summer-click, #autumn-click, #winter-click:hover {
+#spring-click, #summer-click, #autumn-click, #winter-click :hover {
   text-decoration: underline;
 }
 
