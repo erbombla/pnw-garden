@@ -5,14 +5,14 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <scriapt src="js/jquery-3.1.1.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
     <title>Survey</title>
   </head>
   <body>
     <div class="container start">
       <h2>What Should You Plant?</h2>
       <h3>Take our survey to figure out what time of year works best for you to garden! Then go to our seasons page to look at the list of plants.</h3>
-      <div class="form">
+      <form id="survey">
         <h5>What's your ideal outside temperature? (in farenheit)</h5>
         <select class="form-control" id="temperature">
           <option>45-55 degrees</option>
@@ -41,6 +41,14 @@
           <option>This is my hobby!</option>
           <option>I eat ALL of  the food!</option>
         </select>
+        <br>
+        <button type="submit" name="button" class="btn">Let's See!</button>
+      </form>
+      <div class="result">
+        <h3>You should garden in the:</h3>
+        <p>
+
+        </p>
       </div>
     </div>
   </body>
