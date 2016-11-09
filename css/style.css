@@ -213,6 +213,10 @@ hr {
 #seasonBody {
   background-color:  #FBEEE6;
 }
+#seasonBody h3, h1{
+  text-align: center;
+}
+
 #spring, #summer, #autumn, #winter {
 float: center;
 display: none;
@@ -258,6 +262,7 @@ color: rgba(216, 109, 75, 0.8)
     background-color: rgba(255, 255, 255, 1);
     min-height: 350px;
     align-content: center;
+    text-align: center;
 
   }
 #season-select {
@@ -280,6 +285,7 @@ color: rgba(216, 109, 75, 0.8)
     font-family: 'Itim', cursive;
     color: rgb(206, 159, 87);
     font-size: 15px;
+    text-align: center;
   }
 #seasonHR{
     border: 1px solid black
@@ -306,4 +312,5 @@ color: rgba(216, 109, 75, 0.8)
 #seasonBody .navbarr{
   margin-top: 25px;
   margin-bottom: 25px;
+  text-align: center;
 }
