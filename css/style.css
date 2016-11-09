@@ -14,7 +14,7 @@ text-align: center;
 
 #tipsBody {
   text-align: center;
-  /*background-color: #FBEEE6;*/
+  background-color: #FBEEE6;
 }
 
 /*#surveyHeader,*/
@@ -47,8 +47,8 @@ text-align: center;
   width: auto;
   margin-bottom: 25px;
   font-family: 'Pacifico', cursive;
-  color: rgb(125, 141, 115);
-  background-image: url(../img/artiheader.jpg);
+  color: rgb(165, 26, 37);
+  background-image: url(../img/radishes.jpg);
   background-position: bottom right;
   background-repeat: repeat;
   min-height: 350px;
@@ -59,7 +59,7 @@ text-align: center;
 #surveyHeader h2 {
   font-size: 4.2em;
   margin-top: 0.8%;
-  text-shadow: 3px 3px 10px #333;
+  text-shadow: 3px 3px 10px #555;
 }
 
 #questions, #tipsContent {
