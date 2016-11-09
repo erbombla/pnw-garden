@@ -128,7 +128,7 @@ hr {
   background-color: rgb(125, 141, 115);
   color: #FAF8F6;
 }
-
+/*CSS FOR SEASON>HTML*/
 #spring, #summer, #autumn, #winter {
 float: center;
 display: none;
@@ -152,4 +152,8 @@ text-align: center;
 .img-responsive {
   height: 200px;
   width: 300px;
+}
+#season-select{
+color: rgb(125, 141, 115);
+text-decoration: none;
 }
