@@ -2,13 +2,39 @@
 background-color:  #FBEEE6;
 }
 
-.container {
+#surveyBody {
 text-align: center;
 }
 
 .home {
   box-shadow: 4px 2px 50px #EDBB99;
   background-color: #fff;
+  text-align: center;
+}
+
+#tipsBody {
+  text-align: center;
+  background-color: #FBEEE6;
+}
+
+/*#surveyHeader,*/
+#tipsHeader {
+  margin-top: 25px;
+  align-self: center;
+  box-shadow: 4px 2px 50px #EDBB99;
+  border-radius: 20px;
+  padding: 4%;
+  width: auto;
+  margin-bottom: 25px;
+  font-family: 'Pacifico', cursive;
+  color: rgba(216, 109, 75, 1);
+  background-image: url(../img/backgroundTips.jpg);
+  background-position: center right;
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 350px;
+  align-content: center;
+  text-align: center;
 }
 
 #surveyHeader {
@@ -21,24 +47,22 @@ text-align: center;
   width: auto;
   margin-bottom: 25px;
   font-family: 'Pacifico', cursive;
-  color: rgb(125, 141, 115);
-  background-image: url(../img/artiheader.jpg);
+  color: rgb(165, 26, 37);
+  background-image: url(../img/radishes.jpg);
   background-position: bottom right;
   background-repeat: repeat;
-  background-color: rgba(255, 255, 255, 1);
   min-height: 350px;
   align-content: center;
+  text-align: center;
 }
 
 #surveyHeader h2 {
-  font-size: 4em;
+  font-size: 4.2em;
   margin-top: 0.8%;
-  text-decoration: underline;
-  background-color: #fff;
-  /*max-width: 680px;*/
+  text-shadow: 3px 3px 10px #555;
 }
 
-#questions {
+#questions, #tipsContent {
   align-content: center;
   box-shadow: 4px 2px 50px #EDBB99;
   background-color: #fff;
@@ -50,6 +74,51 @@ text-align: center;
   font-size: 15px;
 }
 
+#questions h3 {
+  color: rgba(216, 109, 75, 0.8);
+}
+
+.answerText {
+  color: rgb(206, 159, 87);
+}
+
+#tipsContent {
+  text-align: left;
+}
+
+#tipsBody h3 {
+  color: rgb(125, 141, 115);
+  font-size: 2em;
+}
+
+#tipsHeader h3, #tipsHeader h2 {
+  color: rgba(216, 109, 75, 0.9);
+  font-size: 3em;
+  text-shadow: 3px 3px 10px #222;
+}
+
+#tipsHeader h2 {
+  font-size: 5.5em;
+}
+
+#tipsBody a {
+  color: rgba(216, 109, 75, 0.8);
+}
+
+#tipsBody a:hover {
+  color: rgb(125, 141, 115);
+  text-decoration: none;
+}
+
+#tipsTableTitle {
+  background-color: rgba(216, 109, 75, 0.8);
+  color: #fff;
+  font-size: 1.3em;
+}
+
+/*.table-sm {
+  background-color: rgba(216, 109, 75, 0.1);
+}*/
 
 .result {
   align-self: center;
@@ -84,6 +153,11 @@ text-align: center;
   font-family: 'Itim', cursive;
 }
 
+#surveyBody .navbarr, #tipsBody .navbarr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .navbarr a {
   color: rgb(206, 159, 87);
   text-decoration: none;
@@ -113,6 +187,10 @@ text-align: center;
   font-size: 1.5em;
 }
 
+.bigger {
+  font-size: 1.4em;
+}
+
 hr {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -122,6 +200,9 @@ hr {
 #questions .btn {
   background-color: rgba(216, 109, 75, 0.8);
   color: rgb(125, 141, 115);
+  padding: 20px;
+  width: 275px;
+  font-size: 1.3em;
 }
 
 #questions .btn:hover {

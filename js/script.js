@@ -53,13 +53,13 @@ $(document).ready(function() {
     theCounts.makeAChoice();
 
     if (answer === "Spring") {
-      $("#answerHere").text("You will enjoy gardening in the Spring the most!")
+      $("#answerHere").html('You will enjoy gardening in the <span class="answerText">Spring</span> the most!')
     } else if (answer === "Summer") {
-      $("#answerHere").text("You will enjoy gardening in the Summer the most!")
+      $("#answerHere").html('You will enjoy gardening in the <span class="answerText">Summer</span> the most!')
     } else if (answer === "Fall") {
-      $("#answerHere").text("You will enjoy gardening in the Fall the most!")
+      $("#answerHere").html('You will enjoy gardening in the <span class="answerText">Fall</span> the most!')
     } else if (answer === "Everything") {
-      $("#answerHere").text("You will enjoy gardening any time of the year!")
+      $("#answerHere").html('You will enjoy gardening <span class="answerText">any time</span> of the year!')
     }
 
     theCounts.aCount = [];
