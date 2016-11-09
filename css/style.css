@@ -60,11 +60,9 @@ text-align: center;
 }
 
 #surveyHeader h2 {
-  font-size: 4em;
+  font-size: 4.2em;
   margin-top: 0.8%;
-  text-decoration: underline;
-  background-color: #fff;
-  /*max-width: 680px;*/
+  text-shadow: 3px 3px 10px #333;
 }
 
 #questions, #tipsContent {
@@ -77,6 +75,14 @@ text-align: center;
   font-family: 'Itim', cursive;
   color: rgb(206, 159, 87);
   font-size: 15px;
+}
+
+#questions h3 {
+  color: rgba(216, 109, 75, 0.8);
+}
+
+.answerText {
+  color: rgb(206, 159, 87);
 }
 
 #tipsContent {
@@ -193,6 +199,9 @@ hr {
 #questions .btn {
   background-color: rgba(216, 109, 75, 0.8);
   color: rgb(125, 141, 115);
+  padding: 20px;
+  width: 275px;
+  font-size: 1.3em;
 }
 
 #questions .btn:hover {
