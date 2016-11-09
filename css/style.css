@@ -14,11 +14,8 @@ text-align: center;
 
 #tipsBody {
   text-align: center;
+  /*background-color: #FBEEE6;*/
 }
-
-/*#tipsContent {
-  text-align: left;
-}*/
 
 /*#surveyHeader,*/
 #tipsHeader {
@@ -188,6 +185,10 @@ text-align: center;
 
 .about p {
   font-size: 1.5em;
+}
+
+.bigger {
+  font-size: 1.4em;
 }
 
 hr {
