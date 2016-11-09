@@ -129,6 +129,9 @@ hr {
   color: #FAF8F6;
 }
 /*CSS FOR SEASON>HTML*/
+#seasonBody {
+  background-color:  #FBEEE6;
+}
 #spring, #summer, #autumn, #winter {
 float: center;
 display: none;
@@ -142,10 +145,14 @@ display: none;
 
 #spring-click, #summer-click, #autumn-click, #winter-click {
   text-decoration: underline;
+  color: rgb(125, 141, 115);
 }
 
 #spring-center, #summer-center, #autumn-center, #winter-center {
 text-align: center;
+font-family: 'Pacifico', cursive;
+font-size: 90px;
+color: rgba(216, 109, 75, 0.8)
 }
 
 
@@ -154,6 +161,61 @@ text-align: center;
   width: 300px;
 }
 #season-select{
-color: rgb(125, 141, 115);
-text-decoration: none;
+    margin-top: 25px;
+    align-self: center;
+    box-shadow: 4px 2px 50px #EDBB99;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 4%;
+    width: auto;
+    margin-bottom: 25px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(125, 141, 115);
+    background-image: url(../img/artiheader.jpg);
+    background-position: bottom right;
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 1);
+    min-height: 350px;
+    align-content: center;
+  }
+
+  #season-select {
+    font-size: 4em;
+    margin-top: 0.8%;
+    text-decoration: underline;
+    background-color: #fff;
+    /*max-width: 680px;*/
+  }
+
+  #season-box {
+    align-content: center;
+    box-shadow: 4px 2px 50px #EDBB99;
+    background-color: #fff;
+    padding: 1%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-family: 'Itim', cursive;
+    color: rgb(206, 159, 87);
+    font-size: 15px;
+  }
+  #seasonHR{
+    border: 1px solid black
+  }
+#veg-types{
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+}
+#veg-info{
+  font-family: 'Itim', cursive;
+  font-size: 15px;
+}
+#veg-name{
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+}
+#seas {
+  background-color: black;
+  height: 1px;
+  width: 20%;
+  margin-top: 1mm;
 }
