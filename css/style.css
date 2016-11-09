@@ -2,13 +2,42 @@
 background-color:  #FBEEE6;
 }
 
-.container {
+#surveyBody {
 text-align: center;
 }
 
 .home {
   box-shadow: 4px 2px 50px #EDBB99;
   background-color: #fff;
+  text-align: center;
+}
+
+#tipsBody {
+  text-align: center;
+}
+
+/*#tipsContent {
+  text-align: left;
+}*/
+
+/*#surveyHeader,*/
+#tipsHeader {
+  margin-top: 25px;
+  align-self: center;
+  box-shadow: 4px 2px 50px #EDBB99;
+  border-radius: 20px;
+  padding: 4%;
+  width: auto;
+  margin-bottom: 25px;
+  font-family: 'Pacifico', cursive;
+  color: rgba(216, 109, 75, 1);
+  background-image: url(../img/backgroundTips.jpg);
+  background-position: center right;
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 350px;
+  align-content: center;
+  text-align: center;
 }
 
 #surveyHeader {
@@ -25,9 +54,9 @@ text-align: center;
   background-image: url(../img/artiheader.jpg);
   background-position: bottom right;
   background-repeat: repeat;
-  background-color: rgba(255, 255, 255, 1);
   min-height: 350px;
   align-content: center;
+  text-align: center;
 }
 
 #surveyHeader h2 {
@@ -38,7 +67,7 @@ text-align: center;
   /*max-width: 680px;*/
 }
 
-#questions {
+#questions, #tipsContent {
   align-content: center;
   box-shadow: 4px 2px 50px #EDBB99;
   background-color: #fff;
@@ -50,6 +79,43 @@ text-align: center;
   font-size: 15px;
 }
 
+#tipsContent {
+  text-align: left;
+}
+
+#tipsBody h3 {
+  color: rgb(125, 141, 115);
+  font-size: 2em;
+}
+
+#tipsHeader h3, #tipsHeader h2 {
+  color: rgba(216, 109, 75, 0.9);
+  font-size: 3em;
+  text-shadow: 3px 3px 10px #222;
+}
+
+#tipsHeader h2 {
+  font-size: 5.5em;
+}
+
+#tipsBody a {
+  color: rgba(216, 109, 75, 0.8);
+}
+
+#tipsBody a:hover {
+  color: rgb(125, 141, 115);
+  text-decoration: none;
+}
+
+#tipsTableTitle {
+  background-color: rgba(216, 109, 75, 0.8);
+  color: #fff;
+  font-size: 1.3em;
+}
+
+/*.table-sm {
+  background-color: rgba(216, 109, 75, 0.1);
+}*/
 
 .result {
   align-self: center;
@@ -82,6 +148,11 @@ text-align: center;
   font-size: 2.5em;
   align-content: center;
   font-family: 'Itim', cursive;
+}
+
+#surveyBody .navbarr, #tipsBody .navbarr {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .navbarr a {
