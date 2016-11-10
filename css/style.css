@@ -147,7 +147,7 @@ text-align: center;
 .navbarr {
   margin-top: 100px;
   /*width: 85%;*/
-  color: rgb(206, 159, 87);
+  color: rgb(125, 141, 115);
   font-size: 2.5em;
   align-content: center;
   font-family: 'Itim', cursive;
@@ -270,7 +270,7 @@ color: rgba(216, 109, 75, 0.8)
 }
 #season-select {
     font-size: 6em;
-    margin-top: 0.8%;
+    margin-top: 25px;
     background-color: #fff;
     /*max-width: 680px;*/
   }
@@ -278,8 +278,7 @@ color: rgba(216, 109, 75, 0.8)
 #season-box {
     align-content: center;
     box-shadow: 4px 2px 50px #EDBB99;
-    background-color: rgb(252,254,243);
-    padding: 1%;
+    background-color: rgb(245,249,240);
     margin-bottom: 25px;
     border-radius: 5px;
     font-family: 'Itim', cursive;
@@ -297,6 +296,7 @@ color: rgba(216, 109, 75, 0.8)
 #veg-info{
   font-family: 'Itim', cursive;
   font-size: 17px;
+  text-align: center;
 }
 #veg-name{
   font-family: 'Itim', cursive;
@@ -312,5 +312,13 @@ color: rgba(216, 109, 75, 0.8)
 #seasonBody .navbarr{
   margin-top: 25px;
   margin-bottom: 25px;
+  /*width: 85%;*/
+  color: rgb(125, 141, 115);
+  font-size: 2.5em;
+  align-content: center;
+  font-family: 'Itim', cursive;
   text-align: center;
+}
+#sesselect {
+  color: rgba(216, 109, 75, 0.8);
 }
